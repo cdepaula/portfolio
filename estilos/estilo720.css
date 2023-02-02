@@ -1,5 +1,26 @@
 /* fonte */
 
 /* query */
-@media all and (min-width: 540px) {
+@media all and (min-width: 720px) {
+    
+    #content {
+        position: absolute;
+        top: -1%;
+        left: -1%;
+        width: 101%;
+        height: 101%;
+
+        background-color: darkslategrey;
+    }
+
+    #perfil {
+        margin-top: 5%;
+    }
+
+    #perfil img {
+        width: 45%;
+        margin-left: 27%;
+        border-radius: 50%;
+        filter: drop-shadow(1px 1px 15px rgb(0, 0, 0));
+    }
 }
