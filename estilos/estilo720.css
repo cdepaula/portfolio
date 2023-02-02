@@ -1,4 +1,5 @@
 /* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
 /* query */
 @media all and (min-width: 720px) {
@@ -9,18 +10,52 @@
         left: -1%;
         width: 101%;
         height: 101%;
-
-        background-color: darkslategrey;
+        background-color: rgba(0, 0, 0, 0.897);
     }
 
+    .name {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.7em;
+        font-weight: bold;
+        position: absolute;
+        top: 44%;
+        left: 4%;
+        transform: scale(1, 1) rotate(-90deg);
+        color: rgba(248, 255, 218, 0.651);        
+        cursor: pointer;
+    }
+
+    .name:hover {
+        transform: scale(-1, -1) rotate(-90deg);
+        transition: 0.7s;
+    }
+
+    .webpt {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.7em;
+        font-weight: bold;
+        position: absolute;
+        top: 43%;
+        left: 73%;
+        transform: scale(1, 1) rotate(-90deg);
+        color: rgba(248, 255, 218, 0.651);
+        cursor: pointer;
+    }
+
+    .webpt:hover {
+        transform: scale(-1, -1) rotate(-90deg);
+        transition: 0.7s;
+    }
+
+
     #perfil {
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     #perfil img {
         width: 45%;
         margin-left: 27%;
         border-radius: 50%;
-        filter: drop-shadow(1px 1px 15px rgb(0, 0, 0));
+        filter: drop-shadow(1px 1px 15px rgb(248, 255, 218));
     }
 }
