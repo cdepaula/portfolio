@@ -13,7 +13,7 @@
         background-color: rgba(0, 0, 0, 0.897);
     }
 
-    .name {
+    #name {
         font-family: 'Lato', sans-serif;
         font-size: 1.7em;
         font-weight: bold;
@@ -25,12 +25,21 @@
         cursor: pointer;
     }
 
-    .name:hover {
+    #name:hover {
         transform: scale(-1, -1) rotate(-90deg);
         transition: 0.7s;
     }
+    
+    .name {
+        filter: invert(56%);
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        width: 3%;
+        visibility: hidden;
+    }
 
-    .webpt {
+    #webpt {
         font-family: 'Lato', sans-serif;
         font-size: 1.7em;
         font-weight: bold;
@@ -42,11 +51,19 @@
         cursor: pointer;
     }
 
-    .webpt:hover {
+    #webpt:hover {
         transform: scale(-1, -1) rotate(-90deg);
         transition: 0.7s;
     }
 
+    .webpt {
+        filter: invert(56%);
+        position: absolute;
+        top: 28%;
+        left: 81.5%;
+        width: 3%;
+        visibility: hidden;
+    }
 
     #perfil {
         margin-top: 10%;
